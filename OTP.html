@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Validation</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>OTP Validation</h3>
+      <h3>Enter OTP here</h3>
+      <input type="text" placeholder="OTP" id="guess" /><br />
+      <div class="text-center mt-5">
+            
+  
+
+      <button onclick="play()" id="my_btn">Submit</button><br>
+
+      <span class="d-block mobile-text" id="countdown">Time Left:</span>
+      <span class="d-block mobile-text" id="resend"></span></div>
+
+      <p id="message1"></p>
+      <p id="message2"></p>
+      <p id="message3"></p>
+    </div>
+    <script>
+      var msg1 = document.getElementById("message1");
+      var msg2 = document.getElementById("message2");
+      var msg3 = document.getElementById("message3");
+      var answer = 1234;
+      var no_of_guesses = 0;
+      var guesses_num = [];
+      function play() {
+        var user_guess = document.getElementById("guess").value;
+        if (user_guess < 1 || user_guess > 10000) {
+          alert("OTP is between 1 to 10000");
+        } else {
+          guesses_num.push(user_guess);
+          no_of_guesses += 1;
+          if (user_guess < answer) {
+            msg1.textContent = "Incorrect OTP";
+          } else if (user_guess > answer) {
+            msg1.textContent = "Incorrect OTP";
+          } else if (user_guess == answer) {
+            msg1.textContent = "Correct OTP. Successfully registered";
+          }
+        }
+      }
+      document.getElementById("my_btn").addEventListener("click",function(){
+        prompt("Collect your smart card from shopping mall.Type your smart card name")
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Ideation</title>
+		<script src="../New folder/jquery.js"></script>
+		<script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<style id="applicationStylesheet" type="text/css">
+			
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				border: none;
+			}
+			#Web_1280___1 {
+				position: absolute;
+				width: 1280px;
+				height: 750px;
+				background-color: rgba(255,255,255,1);
+				overflow: hidden;
+				
+			}
+			.Rectangle_15 {
+				position: absolute;
+				overflow: visible;
+				width: 1255px;
+				height: 689px;
+				left: 11px;
+				top: 15px;
+				border: 3px solid black;
+			}
+			#Group_10 {
+				position: absolute;
+				width: 1191px;
+				height: 654px;
+				left: 40px;
+				top: 28px;
+				overflow: visible;
+			}
+			#Group_6 {
+				position: absolute;
+				width: 1191px;
+				height: 654px;
+				left: 0px;
+				top: 0px;
+				overflow: visible;
+			}
+			#Group_5 {
+				position: absolute;
+				width: 1191px;
+				height: 608px;
+				left: 0px;
+				top: 46px;
+				overflow: visible;
+			}
+			.Rectangle_11 {
+				position: absolute;
+				overflow: visible;
+				width: 1190px;
+				height: 608px;
+				left: 0px;
+				top: 0px;
+				border: 3px solid black;
+			}
+			#Group_11 {
+				position: absolute;
+				width: 1190px;
+				height: 223px;
+				left: 0px;
+				top: 385px;
+				overflow: visible;
+			}
+			#Rectangle_18 {
+				position: absolute;
+				width: 43px;
+				height: 43px;
+				left: 511px;
+				top: 12px;
+				overflow: visible;
+				
+			}
+			#Props_Possible_Solution {
+				position: absolute;
+				left: 563px;
+				top: 18px;
+				overflow: visible;
+				width: 240px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			.Rectangle_19 {
+				position: absolute;
+				overflow: visible;
+				width: 1190px;
+				height: 223px;
+				left: 0px;
+				top: 0px;
+				border: 3px solid black;
+			}
+			#Group_7 {
+				position: absolute;
+				width: 1190px;
+				height: 248px;
+				left: 1px;
+				top: 140px;
+				overflow: visible;
+			}
+			#Group_9 {
+				position: absolute;
+				width: 604px;
+				height: 248px;
+				left: 586px;
+				top: 0px;
+				overflow: visible;
+			}
+			.Rectangle_14 {
+				position: absolute;
+				overflow: visible;
+				width: 604px;
+				height: 248px;
+				left: 0px;
+				top: 0px;
+				border: 3px solid black;
+			}
+			#Rectangle_17 {
+				position: absolute;
+				width: 43px;
+				height: 43px;
+				left: 49px;
+				top: 13px;
+				overflow: visible;
+				
+			}
+			#Situation_Context_Location {
+				position: absolute;
+				left: 106px;
+				top: 13px;
+				overflow: visible;
+				width: 274px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			#Group_8 {
+				position: absolute;
+				width: 589px;
+				height: 248px;
+				left: 0px;
+				top: 0px;
+				overflow: visible;
+			}
+			.Rectangle_13 {
+				position: absolute;
+				overflow: visible;
+				width: 589px;
+				height: 248px;
+				left: 0px;
+				top: 0px;
+				border: 3px solid black;
+			}
+			#Activities {
+				position: absolute;
+				left: 117px;
+				top: 13px;
+				overflow: visible;
+				width: 92px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			#Rectangle_16 {
+				position: absolute;
+				width: 55px;
+				height: 55px;
+				left: 44px;
+				top: 1px;
+				overflow: visible;
+				
+			}
+			#Group_2 {
+				position: absolute;
+				width: 1190px;
+				height: 143px;
+				left: 1px;
+				top: 0px;
+				overflow: visible;
+			}
+			.Rectangle_12 {
+				position: absolute;
+				overflow: visible;
+				width: 1190px;
+				height: 143px;
+				left: 0px;
+				top: 0px;
+				border: 3px solid black;
+			}
+			#Rectangle_10 {
+				position: absolute;
+				width: 43px;
+				height: 43px;
+				left: 507px;
+				top: 10px;
+				overflow: visible;
+				
+			}
+			#People {
+				position: absolute;
+				left: 561px;
+				top: 14px;
+				overflow: visible;
+				width: 70px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			#Team__ {
+				position: absolute;
+				left: 978px;
+				top: 0px;
+				overflow: visible;
+				width: 66px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			#Project__ {
+				position: absolute;
+				left: 604px;
+				top: 0px;
+				overflow: visible;
+				width: 83px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			#The_ideanaut___Ideation_Canvas {
+				position: absolute;
+				left: 1px;
+				top: 0px;
+				overflow: visible;
+				width: 310px;
+				white-space: nowrap;
+				text-align: left;
+				font-family: Segoe UI;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 23px;
+				color: rgba(0,0,0,1);
+			}
+			.uper{
+			
+				float: initial;
+				margin: 10px;
+				position: relative;
+				width: 200px;
+				left: 1310px;
+				top: 100px;
+				
+				
+				
+			}
+			.drag {
+	            position: absolute;         
+				width: 160px;
+				height: 40px;
+			}
+			
+			
+			.sticky{
+				 margin: 6px 0 8px 4px; box-sizing: border-box;height: 26px; width: 150px; font-size: 15px; font-weight: 100;
+				 }
+		</style>
+	</head>
+	<body>
+		<div id="Web_1280___1">
+			<div class="Rectangle_15">
+				
+			</div>
+			<div id="Group_10">
+				<div id="Group_6">
+					<div id="Group_5">
+						<div class="Rectangle_11">
+							
+						</div>
+						<div id="Group_11">
+							<img id="Rectangle_18" src="Rectangle_18.png" srcset="Rectangle_18.png 1x, Rectangle_18@2x.png 2x">
+							<div id="Props_Possible_Solution">
+								<span>Props/Possible Solution</span>
+							</div>
+							<div class="Rectangle_19">
+								
+							</div>
+						</div>
+						<div id="Group_7">
+							<div id="Group_9">
+								<div class="Rectangle_14">
+									
+								</div>
+								<img id="Rectangle_17" src="Rectangle_17.png" srcset="Rectangle_17.png 1x, Rectangle_17@2x.png 2x">
+								<div id="Situation_Context_Location">
+									<span>Situation/Context/Location</span>
+								</div>
+							</div>
+							<div id="Group_8">
+								<div class="Rectangle_13">
+									
+								</div>
+								<div id="Activities">
+									<span>Activities</span>
+								</div>
+								<img id="Rectangle_16" src="Rectangle_16.png" srcset="Rectangle_16.png 1x, Rectangle_16@2x.png 2x">
+							</div>
+						</div>
+						<div id="Group_2">
+							<div class="Rectangle_12">
+								
+							</div>
+							<img id="Rectangle_10" src="Rectangle_10.png" srcset="Rectangle_10.png 1x, Rectangle_10@2x.png 2x">
+							<div id="People">
+								<span>People</span>
+							</div>
+						</div>
+					</div>
+					<div id="Team__">
+						<span>Team :</span>
+					
+					</div>
+					<div id="Project__">
+						<span>Project :</span>
+					</div>
+					<div id="The_ideanaut___Ideation_Canvas">
+						<span>The ideanaut : </span><span style="font-style:italic;font-weight:normal;">Ideation Canvas</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	 <div class="uper">
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>	
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;position: relative;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+        </div>
+        <div class="uper">
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>	
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green; position: relative; ">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        </div>  
+        <div class="uper">
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>	
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC; position: relative;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>						
+
+		</div>
+		<div class="uper">
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	          <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>	 	
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div> 	 	
+	          	 	
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6; position: relative;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+        </div>
+        <div class="uper">
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div> 	
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B; position: relative;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div> 	 	 	 	 	 	 	
+		 </div>
+		 
+		<script language="javascript" type="text/javascript">
+			
+			$(".drag").draggable();
+				//(".drag").draggable("option","helper":"clone"); 
+		/*$("#custom___1").droppable(
+		{
+		accept: ".drag",
+		drop: function (ev, ui)
+		{
+		var droppedItem = $(ui.draggable).clone();
+		$(this).append(droppedItem);
+		}
+		}
+		);        */
+		
+		</script>	
+		
+	</body>
+</html>

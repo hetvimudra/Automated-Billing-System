@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:wght@400;500;600;700&display=swap");
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    font-family: "Poppins",sans-serif;
+    color: black;
+}
+
+div{
+    margin-bottom: 10px;
+}
+button{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+input{
+    text-decoration: blue;
+}
+#generated-captcha {
+    text-decoration: line-through;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    background-color: royalblue;
+    border-radius: 6px;
+    border: none;
+    color: purple;
+}
+#entered-captcha{
+    border: 2px solid brown ;
+    font-family: monospace;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    font-size: 12px;
+}
+button{
+    --green:#1bfd9c;
+    font-size: 15px;
+    padding: 0.7cm 2.7cm;
+    letter-spacing: 0.06cm;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6cm;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4cm;
+    border: 2px solid var(--green);
+    background: linear-gradient(
+        to right,
+        rgba(27, 80, 253, 0.1),
+        transparent 40%,
+        transparent 60%,
+        rgba(87, 27, 253, 0.1)
+    );
+    color:var(--green);
+    box-shadow:insert 0 0 10px rgba(27,253,156,0.4),
+    0 0 9px 3px rgba(27,253,156,0.2);
+}
+button::before {
+    content: "";
+    position: absolute;
+    left: -4cm;
+    width: 4cm;
+    height: 100%;
+    top: 0;
+    transition: transform 0.4s ease-in-out;
+    background: linear-gradient(
+        to right,
+        transparent 1%,
+        rgba(27,253,156,0.1),
+        rgba(27,253,156,0.1),
+        transparent 100%
+    );
+}
+button:hover::before{
+    transform: translateX(15cm);
+}
+.wrappr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

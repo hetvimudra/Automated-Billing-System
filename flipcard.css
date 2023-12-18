@@ -1,0 +1,34 @@
+.card{
+    width:200px;
+    height:220px;
+    position: relative;
+    background-color: transparent;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.card:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;  
+}
+
+.front, .back{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    padding-top: 20px;
+    position: absolute;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    display: table-row;
+    justify-content: center;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.back{
+    transform: rotateY(180deg);
+    background: #fff;
+}

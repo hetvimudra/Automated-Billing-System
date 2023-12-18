@@ -1,0 +1,27 @@
+body{
+  background: url(shop.png) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#btn{
+    padding-top: 50px;
+  }
+.info{ text-align: center;
+margin-top: 100px;
+color: rgb(119, 12, 12);
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+.new{
+    padding: 20px;
+    background-color: chocolate;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.new:hover{
+    background-color: rgb(235, 17, 17);
+}

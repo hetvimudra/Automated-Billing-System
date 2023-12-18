@@ -1,0 +1,689 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>product development</title>
+<script src="../New folder/jquery.js"></script>
+		<script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<style id="applicationStylesheet" type="text/css">
+	
+	
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#product_development {
+		position: absolute;
+		width: 1350px;
+		height: 1030px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1320px;
+		height: 974px;
+		left: 15px;
+		top: 13px;
+		border: 3px solid black;
+	}
+	#Group_3 {
+		position: absolute;
+		width: 1247px;
+		height: 939px;
+		left: 52px;
+		top: 30px;
+		overflow: visible;
+	}
+	#Group_2 {
+		position: absolute;
+		width: 1247px;
+		height: 875px;
+		left: 0px;
+		top: 64px;
+		overflow: visible;
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1247px;
+		height: 875px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 1247px;
+		height: 875px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#reject____block {
+		position: absolute;
+		width: 380px;
+		height: 439px;
+		left: 867px;
+		top: 436px;
+		overflow: visible;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 380px;
+		height: 439px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Reject__Redesign__Retain {
+		position: absolute;
+		left: 64px;
+		top: 9px;
+		overflow: visible;
+		width: 261px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_17 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 9px;
+		top: 9px;
+		overflow: visible;
+
+	}
+	#customer_revalidation_block {
+		position: absolute;
+		width: 380px;
+		height: 439px;
+		left: 867px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 380px;
+		height: 439px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Customer_Revaldation {
+		position: absolute;
+		left: 64px;
+		top: 9px;
+		overflow: visible;
+		width: 243px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_14 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 9px;
+		top: 7px;
+		overflow: visible;
+	}
+	#component_block {
+		position: absolute;
+		width: 593px;
+		height: 318px;
+		left: 277px;
+		top: 557px;
+		overflow: visible;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 593px;
+		height: 318px;
+		left: 0px;
+		border: 3px solid black;
+		top: 0px;
+	}
+	#Components {
+		position: absolute;
+		left: 191px;
+		top: 11px;
+		overflow: visible;
+		width: 142px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_16 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 135px;
+		top: 9px;
+		overflow: visible;
+	}
+	#product_features_block {
+		position: absolute;
+		width: 593px;
+		height: 235px;
+		left: 277px;
+		top: 325px;
+		overflow: visible;
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 593px;
+		height: 235px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Product_Features {
+		position: absolute;
+		left: 191px;
+		top: 20px;
+		overflow: visible;
+		width: 187px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_15 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 135px;
+		top: 14px;
+		overflow: visible;
+	}
+	#product_function_block {
+		position: absolute;
+		width: 593px;
+		height: 199px;
+		left: 277px;
+		top: 129px;
+		overflow: visible;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 593px;
+		height: 199px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Product_Function {
+		position: absolute;
+		left: 191px;
+		top: 15px;
+		overflow: visible;
+		width: 189px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_12 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 135px;
+		top: 9px;
+		overflow: visible;
+	}
+	#product_experience_block {
+		position: absolute;
+		width: 593px;
+		height: 132px;
+		left: 277px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_10 {
+		position: absolute;
+		overflow: visible;
+		width: 593px;
+		height: 132px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Product_Experience {
+		position: absolute;
+		left: 191px;
+		top: 9px;
+		overflow: visible;
+		width: 213px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_3 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 135px;
+		top: 3px;
+		overflow: visible;
+	}
+	#people_block {
+		position: absolute;
+		width: 280px;
+		height: 439px;
+		left: 0px;
+		top: 436px;
+		overflow: visible;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 280px;
+		height: 439px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Rectangle_13 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 24px;
+		top: 9px;
+		overflow: visible;
+	}
+	#People {
+		position: absolute;
+		left: 73px;
+		top: 12px;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#purpose_block {
+		position: absolute;
+		width: 280px;
+		height: 439px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Purpose {
+		position: absolute;
+		left: 73px;
+		top: 19px;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_11 {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 24px;
+		top: 14px;
+		overflow: visible;
+	}
+	.Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 280px;
+		height: 439px;
+		left: 0px;
+		top: 0px;
+		border: 3px solid black;
+	}
+	#Product_Development_Canvas {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 457px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,1);
+	}
+	#Team__ {
+		position: absolute;
+		left: 600px;
+		top: 7px;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Date__ {
+		position: absolute;
+		left: 820px;
+		top: 8px;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Version__ {
+		position: absolute;
+		left: 1051px;
+		top: 8px;
+		overflow: visible;
+		width: 94px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	.uper{
+				
+				position: relative;
+				float: initial;
+				margin:10px;
+                width: 150px;
+				left: 1360px;
+				top:100px;
+				
+			}
+			.drag {
+	            position: absolute;         
+				width: 130px;
+				height: 30px;
+
+			}
+			
+			
+			.sticky{
+				 margin: 5px 0 8px 4px; box-sizing: border-box;height: 22px; width: 120px; font-size: 15px; font-weight: 100;
+				 }
+</style>
+</head>
+<body>
+<div id="product_development">
+	<div class="Rectangle_1">
+	</div>
+	<div id="Group_3">
+		<div id="Group_2">
+			<div class="Rectangle_2">
+				
+			</div>
+			<div id="Group_1">
+				<div id="reject____block">
+					<div class="Rectangle_6">
+						
+					</div>
+					<div id="Reject__Redesign__Retain">
+						<span>Reject, Redesign, Retain</span>
+					</div>
+					<img id="Rectangle_17" src="Rectangle_17.png" srcset="Rectangle_17.png 1x, Rectangle_17@2x.png 2x">
+				</div>
+				<div id="customer_revalidation_block">
+					<div class="Rectangle_5">
+						
+					</div>
+					<div id="Customer_Revaldation">
+						<span>Customer Revaldation</span>
+					</div>
+					<img id="Rectangle_14" src="Rectangle_14.png" srcset="Rectangle_14.png 1x, Rectangle_14@2x.png 2x">
+				</div>
+				<div id="component_block">
+					<div class="Rectangle_7">
+						
+					</div>
+					<div id="Components">
+						<span>Components</span>
+					</div>
+					<img id="Rectangle_16" src="Rectangle_16.png" srcset="Rectangle_16.png 1x, Rectangle_16@2x.png 2x">
+				</div>
+				<div id="product_features_block">
+					<div class="Rectangle_8">
+						
+					</div>
+					<div id="Product_Features">
+						<span>Product Features</span>
+					</div>
+					<img id="Rectangle_15" src="Rectangle_15.png" srcset="Rectangle_15.png 1x, Rectangle_15@2x.png 2x">
+				</div>
+				<div id="product_function_block">
+					<div class="Rectangle_9">
+						
+					</div>
+					<div id="Product_Function">
+						<span>Product Function</span>
+					</div>
+					<img id="Rectangle_12" src="Rectangle_12.png" srcset="Rectangle_12.png 1x, Rectangle_12@2x.png 2x">
+				</div>
+				<div id="product_experience_block">
+					<div class="Rectangle_10">
+					
+					</div>
+					<div id="Product_Experience">
+						<span>Product Experience</span>
+					</div>
+					<img id="Rectangle_3" src="Rectangle_3.png" srcset="Rectangle_3.png 1x, Rectangle_3@2x.png 2x">
+				</div>
+				<div id="people_block">
+					<div class="Rectangle_4">
+						
+					</div>
+					<img id="Rectangle_13" src="Rectangle_13.png" srcset="Rectangle_13.png 1x, Rectangle_13@2x.png 2x">
+					<div id="People">
+						<span>People</span>
+					</div>
+				</div>
+				<div id="purpose_block">
+					<div id="Purpose">
+						<span>Purpose</span>
+					</div>
+					<img id="Rectangle_11" src="Rectangle_11.png" srcset="Rectangle_11.png 1x, Rectangle_11@2x.png 2x">
+					<div class="Rectangle_18">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Product_Development_Canvas">
+			<span>Product Development Canvas</span>
+		</div>
+		<div id="Team__">
+			<span>Team :</span>
+		</div>
+		<div id="Date__">
+			<span>Date :</span>
+		</div>
+		<div id="Version__">
+			<span>Version :</span>
+		</div>
+	</div>
+</div>
+<div>
+ <div class="uper">
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          <div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>		
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+	          	<div  class="drag" style="background-color: yellow;position: relative;"  >
+	          		<input type="text" class="sticky" style="background-color: yellow;"></div>
+        </div>
+        <div class="uper">
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>	
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green;">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        	<div  class="drag" style="background-color: green; position: relative; ">
+        		<input type="text" class="sticky"  style="background-color: green;"></div>
+        </div>  
+        <div class="uper">
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>	
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>
+        	<div  class="drag" style="background-color: #E75FCC; position: relative;">
+        		<input type="text" class="sticky"  style="background-color: #E75FCC;"></div>						
+
+		</div>
+		<div class="uper">
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	          <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div> 	 	
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div> 	 	
+	          	 	
+	         <div  class="drag" style="background-color: #7DF6F6;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+	         <div  class="drag" style="background-color: #7DF6F6; position: relative;"  >
+	          	<input type="text" class="sticky" style="background-color: #7DF6F6;"></div>
+        </div>
+        <div class="uper">
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div> 	
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div>
+	         <div  class="drag" style="background-color: #DCD58B; position: relative;"  >
+	          	<input type="text" class="sticky" style="background-color: #DCD58B;"></div> 	 	 	 	 	 	 	
+		 </div>
+		<script language="javascript" type="text/javascript">
+			
+			$(".drag").draggable();
+				//(".drag").draggable("option","helper":"clone"); 
+		/*$("#custom___1").droppable(
+		{
+		accept: ".drag",
+		drop: function (ev, ui)
+		{
+		var droppedItem = $(ui.draggable).clone();
+		$(this).append(droppedItem);
+		}
+		}
+		);        */
+		
+		</script>
+</body>
+
+</html>

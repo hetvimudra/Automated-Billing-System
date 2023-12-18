@@ -1,0 +1,52 @@
+
+.style1 {
+    background: url(shop.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+.text-color{
+    color: white;
+}
+.card {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    border: none;
+    position: relative
+}
+.container {
+    height: 100vh;
+    size-adjust:;
+    border-color: black;
+    color: blue;
+    
+}
+.mobile-text {
+    color: #1d1161b8;
+    font-size: 15px;
+    background-color: white;
+    
+}
+.form-control {
+    margin-right: 12px;
+    
+}
+.form-control:focus {
+    color: #e2e4ee;
+    background-color: rgb(32, 32, 32);
+    border-color: #4205db;
+    outline: 0;
+    box-shadow: none;
+}
+.cursor {
+    cursor: pointer;
+   
+}
+.button{
+color: red;;
+}
